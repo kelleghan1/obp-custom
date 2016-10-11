@@ -125,7 +125,7 @@
 	</div>
 </section>
 
-<section class="videobg" style="background-image: url(images/videobg.jpg);">
+<section class="videobg" style="background-image: url(<?php bloginfo('template_directory');?>/images/videobg.jpg);">
 	<div class="container">
 		<div class="videotext">
 			<h2>Where the heart of the traveler <br>  meets the soul of the place.</h2>
