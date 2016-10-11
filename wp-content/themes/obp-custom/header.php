@@ -52,38 +52,40 @@
 
         <div class="magazines">
           <img src="<?php bloginfo('template_directory');?>/images/magazines.png" alt="Request your 2016 Travel Book" title="Request your 2016 Travel Book">
-          <a href="#1">Get Your FREE Travel Book</a></div>
-          <div class="contactus"><a href="#">contact us</a> <span>»</span> <a href="#">1.800.455.2995</a> </div>
+          <a href="#1">Get Your FREE Travel Book</a>
+        </div>
+        <div class="contactus"><a href="#">contact us</a> <span>»</span> <a href="#">1.800.455.2995</a> </div>
 
 
-        </div>
       </div>
-      <div class="header_bottom">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html">
-              <img alt="Off The Beaten Path" title="Off The Beaten Path" src="<?php bloginfo('template_directory');?>/images/logo.png">
-            </a>
-          </div>
-          <a id="menu-tog" href="#"><span class="base-bg-color"></span></a>
-          <nav id="navigation" class="" role="navigation">
-            <ul>
-              <li><a href="#1">Where We travel</a>
-                <div class="submenu">
-                  <ul>
-                    <li><a href="#1">Drop down menu 1</a></li>
-                    <li><a href="#1">Drop down menu 2</a></li>
-                    <li><a href="#1">Drop down menu 3</a></li>
-                    <li><a href="#1">Drop down menu 4</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li><a href="howwego.html">How we go </a></li>
-              <li><a href="#1">who we are</a></li>
-              <li><a href="#1">find a trip</a></li>
-            </ul>
-          </nav>
-          <div class="contactus"><a href="#">contact us</a><span>»</span><a href="#">1.800.455.2995</a></div>
+    </div>
+    <div class="header_bottom">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img alt="Off The Beaten Path" title="Off The Beaten Path" src="<?php bloginfo('template_directory');?>/images/logo.png">
+          </a>
         </div>
+        <a id="menu-tog" href="#"><span class="base-bg-color"></span></a>
+        <nav id="navigation" class="" role="navigation">
+          <ul>
+            <li><a href="#1">Where We travel</a>
+              <div class="submenu">
+                <ul>
+                  <li><a href="#1">Drop down menu 1</a></li>
+                  <li><a href="#1">Drop down menu 2</a></li>
+                  <li><a href="#1">Drop down menu 3</a></li>
+                  <li><a href="#1">Drop down menu 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="howwego.html">How we go </a></li>
+            <li><a href="#1">who we are</a></li>
+            <li><a href="#1">find a trip</a></li>
+          </ul>
+        </nav>
+        <div class="contactus"><a href="#">contact us</a><span>»</span><a href="#">1.800.455.2995</a></div>
       </div>
-    </header>
+    </div>
+
+  </header>
