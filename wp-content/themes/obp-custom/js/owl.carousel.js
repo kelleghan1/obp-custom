@@ -425,6 +425,8 @@
 		// update view
 		this.refresh();
 
+		console.log('checking');
+
 		this.$element.removeClass('owl-loading').addClass('owl-loaded');
 
 		// attach generic events

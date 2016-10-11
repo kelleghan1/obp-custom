@@ -54,7 +54,7 @@
           <img src="<?php bloginfo('template_directory');?>/images/magazines.png" alt="Request your 2016 Travel Book" title="Request your 2016 Travel Book">
           <a href="#1">Get Your FREE Travel Book</a>
         </div>
-        <div class="contactus"><a href="#">contact us</a> <span>»</span> <a href="#">1.800.455.2995</a> </div>
+        <div class="contactus"><a href="<?php echo get_site_url(); ?>/contact-us">contact us</a> <span>»</span> <a href="#">1.800.455.2995</a> </div>
 
 
       </div>
@@ -67,9 +67,12 @@
           </a>
         </div>
         <a id="menu-tog" href="#"><span class="base-bg-color"></span></a>
+
+
         <nav id="navigation" class="" role="navigation">
           <ul>
-            <li><a href="#1">Where We travel</a>
+            <li>
+              <a href="<?php echo get_site_url(); ?>/where-we-travel">Where We travel</a>
               <div class="submenu">
                 <ul>
                   <li><a href="#1">Drop down menu 1</a></li>
@@ -79,12 +82,14 @@
                 </ul>
               </div>
             </li>
-            <li><a href="howwego.html">How we go </a></li>
-            <li><a href="#1">who we are</a></li>
-            <li><a href="#1">find a trip</a></li>
+            <li><a href="<?php echo get_site_url(); ?>/how-we-go">How we go </a></li>
+            <li><a href="<?php echo get_site_url(); ?>/who-we-are">Who we are</a></li>
+            <li><a href="<?php echo get_site_url(); ?>/find-a-trip">Find a trip</a></li>
           </ul>
         </nav>
-        <div class="contactus"><a href="#">contact us</a><span>»</span><a href="#">1.800.455.2995</a></div>
+
+
+        <div class="contactus"><a href="<?php echo get_site_url(); ?>/contact-us">contact us</a><span>»</span><a href="#">1.800.455.2995</a></div>
       </div>
     </div>
 

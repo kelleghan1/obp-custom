@@ -1,3 +1,16 @@
+
+<section class="npcafooter">
+	<div class="container">
+		<div class="npcarow">
+			<div class="npcalogo"><img src="<?php bloginfo('template_directory');?>/images/footer_npca.png" alt=""></div>
+			<div class="lefttext">
+				<img src="<?php bloginfo('template_directory');?>/images/npcatext.png" alt="">
+				<span>OBP travelers receive a free one-year membership to NPCA with any small group or custom travel booking. Ask a travel advisor » 1.800.445.2995</span>
+			</div>
+		</div>
+	</div>
+</section>
+
 <footer id="footer">
 	<div class="container">
 		<div class="footer_top">
